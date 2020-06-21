@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+li {
+  list-style: none;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: auto;
+  /* background: #999; */
+}
+
+input {
+  width: 50vw;
+  padding: 1rem 1.5rem;
+  background: #f4f4f4;
+  border: 1px solid black;
+  margin-right: 0.4rem;
+  border-radius: 10rem;
+  outline: none;
+}
+
+.App button {
+  padding: 1rem 1.5rem;
+  background: yellow;
+  border: 1px solid black;
+  border-radius: 10rem;
+  outline: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.item li {
+  flex: 9;
+  background: darkblue;
+  padding: 1rem;
+  border-radius: 10rem;
+  margin-right: 0.4rem;
+  outline: none;
+}
+
+.item button {
+  flex: 1;
+  background: red;
+  color: white;
+  padding: 1rem 1.25rem;
+  border-radius: 10rem;
+  border: none;
+  outline: none;
+}
